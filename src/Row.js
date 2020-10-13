@@ -27,7 +27,7 @@ function Row({title,fetchUrl, isLargeRow}) {
     /** we need to tell useEffect that you are using this variable "fetchUrl" which is outside the block */
     /** in that way useEffect knows that something change so I need to refile the code*/
 
-    console.table(movies);
+    //console.table(movies);
 
     return (
         <div className="row">
